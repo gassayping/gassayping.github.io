@@ -15,7 +15,7 @@
 }
 
 body {
-	animation: background-pan 10s ease-in-out infinite;
+	animation: background-pan 10s ease-out infinite;
 	background: linear-gradient(
 		to right,
 		var(--light),
@@ -25,8 +25,6 @@ body {
 		var(--light)
 	);
 	background-size: 200%;
-	height: 100vh;
-	overflow: hidden;
 	margin: 0px;
 }
 
@@ -57,18 +55,23 @@ body {
 	position: absolute;
 }
 
-#main {
+.intro {
 	color: honeydew;
 	font-family: "Andale Mono", "Roboto Mono", monospace;
+	z-index: 1;
 }
 
 #title {
 	left: 3%;
-	top: 5%;
+	top: 1%;
 	position: absolute;
-	font-size: 5vw;
-	margin: 0px;
-	pointer-events: none;
+	font-size: 3vw;
+	width: 35vw;
+}
+
+#subtitle {
+	font-size: 2vw;
+	margin-top: -5%;
+	margin-left: 5%;
 	width: 30vw;
-	z-index: 1;
 }
