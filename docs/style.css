@@ -42,7 +42,6 @@ body {
 }
 
 .tile {
-	cursor: pointer;
 	position: relative;
 	position: center;
 }
