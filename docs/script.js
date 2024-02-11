@@ -1,6 +1,12 @@
 const wrapper = document.getElementById("tiles");
 const size = 40;
 let columns = rows = 0;
+const body = document.body,
+	html = document.documentElement;
+
+const height = Math.max(body.scrollHeight, body.offsetHeight,
+	html.clientHeight, html.scrollHeight, html.offsetHeight);
+wrapper.style.setProperty("--height", height + "px");
 
 createGrid();
 
@@ -18,7 +24,7 @@ window.onresize = createGrid;
 function createGrid() {
 	wrapper.innerHTML = "";
 	columns = Math.floor(document.body.clientWidth / size);
-	rows = Math.floor(document.body.clientHeight / size);
+	rows = Math.floor(height / size);
 	wrapper.style.setProperty("--columns", columns);
 	wrapper.style.setProperty("--rows", rows);
 	createTiles(columns * rows);
