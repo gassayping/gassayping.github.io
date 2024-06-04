@@ -40,21 +40,20 @@ body {
 	left: 3%;
 	top: 0%;
 	position: absolute;
-	font-size: 3vw;
-	width: 35vw;
+	font-size: 2vh;
+	width: 50vw;
 	pointer-events: none;
 }
 
 #subtitle {
-	font-size: 2vw;
-	margin-top: -5%;
+	font-size: 1.5vh;
 	margin-left: 5%;
 	width: 30vw;
 }
 
 .content {
 	width: 90vw;
-	font-size: 1.5vw;
+	font-size: 1.5vh;
 	margin-top: 5vh;
 	margin-left: 5%;
 	overflow-wrap: break-word;
