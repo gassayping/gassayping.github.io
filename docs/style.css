@@ -50,9 +50,10 @@ body {
 }
 
 #subtitle {
-	font-size: 2vh;
+	font-size: min(2vh, 2vw);
 	margin-left: 5%;
-	width: 30vw;
+	margin-top: -4%;
+	width: 35vw;
 }
 
 .content {
