@@ -44,21 +44,21 @@ body {
 	left: 3%;
 	top: 0%;
 	position: absolute;
-	font-size: 2vh;
+	font-size: 5vh;
 	width: 50vw;
 	pointer-events: none;
 }
 
 #subtitle {
-	font-size: 1.5vh;
+	font-size: 2vh;
 	margin-left: 5%;
 	width: 30vw;
 }
 
 .content {
 	width: 90vw;
-	font-size: 1.5vh;
-	margin-top: 5vh;
+	font-size: 3vh;
+	margin-top: 2vh;
 	margin-left: 5%;
 	overflow-wrap: break-word;
 	pointer-events: auto;
